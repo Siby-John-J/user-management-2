@@ -1,0 +1,31 @@
+
+.adminHeader {
+    background-color: rgb(1, 116, 190);
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.adminHeader input {
+    outline: none;
+    border: none;
+    height: 2em;
+    width: 20em;
+    border-radius: 20px;
+    padding-left: 1em;
+}
+
+.adminHeader button {
+    height: 2em;
+    padding: 0px 22px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    color: white;
+}
+
+.adminHeader button * {
+    color: white;
+    text-decoration: none;
+}

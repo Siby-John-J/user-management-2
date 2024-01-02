@@ -1,0 +1,65 @@
+
+.editModel {
+    background-color: #f8f8f8;
+    position: absolute;
+    height: 29em;
+    width: 20em;
+    top: 8em;
+    left: 38em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 3px solid;
+}
+
+.editModel .imagediv {
+    background: black;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+}
+
+.editModel input {
+    /* width: 19em; */
+    border: none;
+    border-bottom: 2px solid;
+    background: none;
+    height: 2em;
+    outline: none;
+    font-size: 20px;
+}
+
+.editModel .set {
+    outline: none;
+    border: none;
+    font-size: 1em;
+    padding: 10px 41px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+}
+
+.editModel .actiondiv button {
+    margin-left: 14em;
+    padding: 10px 16px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+}
+
+.imagediv .image_set {
+    height: 26px;
+    width: 77px;
+    padding: -8px;
+    border-radius: 3em;
+    margin-top: 2.2em;
+    margin-left: 0.9em;
+    opacity: 0;
+}

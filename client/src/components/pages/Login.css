@@ -1,0 +1,98 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+
+.mainLogin {
+    background-color: rgb(255, 255, 255);
+    height: 20em;
+    width: 50em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.part1 {
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 50%;
+}
+
+.part1 input {
+    margin-top: 2.4em;
+    height: 30px;
+    width: 15em;
+    border-radius: 5px;
+    border: 1.4px solid rgb(0, 0, 0);
+    color: black;
+    background: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.part1 input:focus {
+    border: 1.4px solid green;
+}
+
+.part1 button {
+    margin-top: 2em;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 17px;
+    background: rgb(30, 81, 40);
+    color: white;
+    cursor: pointer;
+}
+
+.part1 a {
+    margin-top: 9px;
+    text-decoration: none;
+}
+
+.part2 {
+    background-color: rgb(30, 81, 40);
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* justify-content: space-evenly; */
+}
+
+.part2 label {
+    width: 129px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 1em;
+    margin-bottom: 2.7em;
+    line-height: 2em;
+}
+
+.part2 button {
+    font-size: 1em;
+    padding: 8px 28px;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    border: 1.4px solid white;
+    background: none;
+    cursor: pointer;
+}
+
+.part2 button * {
+    color: white;
+    text-decoration: none;
+}
