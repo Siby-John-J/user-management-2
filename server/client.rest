@@ -1,0 +1,17 @@
+
+# POST http://localhost:2000/user/create
+# Content-Type: application/json
+
+# {
+#     "name" : "romy",
+#     "email": "rm@gmail.com",
+#     "password": "#1Replover"
+# }
+
+POST http://localhost:2000/user/login
+Content-Type: application/json
+
+{
+    "email" : "rm@game.com",
+    "password": "replover",
+}
